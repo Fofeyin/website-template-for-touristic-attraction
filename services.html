@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Touristique travel | services</title>
+    <link rel="stylesheet" href="css/servicestyle.css">
+    <link rel="shortcut icon" href="images/showcase.ico" />
+  </head>
+  <body>
+    <header id="main-header" >
+  <div class="container">
+    <div id="branding">
+      <h1>TOURISTIQUE TRAVELS</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="homepage.HTML">HOME</a></li>
+        <li class="current"><a href="services.html">SERVICES</a></li>
+        <li><a href="explore.html">EXPLORE</a></li>
+        <li><a href="culture.html">CULTURE</a></li>
+      </ul>
+    </nav>
+    </div>
+</header>
+<section id="brand">
+  <div class="service">
+    <div class="rank">
+      <h2>Top tour service provider in Cameroon</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus quam ducimus aspernatur velit nulla aut? Temporibus, quasi beatae animi cupiditate excepturi inventore vero odio laborum laudantium officiis voluptatum pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, ipsum impedit exercitationem facere optio. Qui obcaecati esse doloremque facilis  <a>dolores</a>.</p>
+    </div>
+    <div class="offers">
+      <div class="wow">
+          <h1 style="color: #fff; font-size: 30px">OUR SERVICES</h1>
+          <h2>We have been awarded the top tour service provider in CMR. Our top tier offers include:</h2>
+          <ul>
+            <li><a href="#">Hotel services</a></li>
+            <li><a href="#">the culture experience</a></li>
+            <li><a href="#">host service</a></li>
+            <li><a href="#">dedicated travel guide</a></li>
+            <li><a href="#">flight services</a></li>
+          </ul>
+      </div>
+      <div class="wow" style="margin-top: 20px;font-size: 20px;">
+        <h2>Our services are provided at affordable prices. </h2></div>
+    </div>
+  </div>
+</section>
+<section id="travelguide">
+  <div style="height: 90%;">
+      <h1>TRAVEL ON OUR GUIDE</h1>
+        <img src="images/showcase.jpg" alt="front page">
+        <div class="guide">
+          <h2 style="font-size: 30px; height: 90%;">Discover Cameroon With Our Tour Guide</h2>
+          <h2> It details every info about tourism in CMR and our offers</h2>
+        <button>DOWNLOAD OUR GUIDE</button>
+        </div>
+  </div>
+</section>
+  <section id="form">
+    <div class="dark">
+      <h1 style="text-align: center; font-size: 30px;">  Book Us</h1>
+      <form action="">
+        <div>
+          <label for="">Name:</label>
+          <br>
+          <input type="text" placeholder="John Doe">
+        </div>
+        <br>
+        <div>
+          <label for="">Email:</label>
+          <br>
+          <input type="email" placeholder="johndoe@gmail.com">
+        </div>
+        <br>
+        <div>
+           <label for="">Travel reason:</label>
+           <br>
+           <input id="writeSelectedOption" type="text" placeholder="travel reason" value="">
+           <select onchange="doCopy(event)" type="text" placeholder="select an option">
+             <option>select one</option>
+             <option value="experience">experience</option>
+             <option value="business">business</option>
+             <option value="tourism">tourism</option>
+             <option value="honeymoon">honeymoon</option>
+             <option value="others">others</option>
+           </select>
+          </div>
+          <br>
+          <div>
+            <label for="">Message:</label>
+            <br>
+            <textarea type="text" placeholder="John Doe" placeholder="Compose here"></textarea>
+          </div>
+          <div style="margin: auto; width:90%;">
+            <button type="submit">Submit quote</button>
+          </div>
+      </form>
+    </div>
+  </section>
+  <script>
+  const doCopy = (e) => {
+    document.getElementById("writeSelectedOption").value = e.target.value
+  }
+  </script>
+  <footer id="footer">
+      <div class="container">
+        <div class="foot">
+          <p><strong>TOURISTIC TRAVELS</strong></p>
+        </div>
+        <div class="foot">
+          <h3>Social Media</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <form class="subscribe" action="index.html" method="post">
+          <div class="foot">
+            <h3>Subscribe to our Weekly</h3>
+            <div class="">
+              <input type="email" name="" value="" placeholder="johndoe@gmail.com">
+              <button type="submit" name="button">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
