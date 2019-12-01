@@ -1,0 +1,230 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin: 0;
+  background-color: #fdf4f4;
+}
+.container{
+  width: 90%;
+  margin: auto;
+  overflow:hidden;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+/*Header section*/
+header{
+  background: url("../images/showcase.jpg") no-repeat 0 -500px;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height: 700px;
+  border-bottom: black 3px solid;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-size: 18px;
+}
+header #branding{
+  float:left;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 10px;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float: right;
+  margin-top:10px;
+  margin-right: 20px;
+}
+header .highlight, .current a{
+  color:black;
+  font-weight: bold;
+  text-decoration: underline solid;
+}
+header a:hover{
+  color: gray;
+  font-weight: bold;
+  text-decoration: underline overline;
+}
+/*showcase*/
+#showcase{
+  min-height: 400px;
+  text-align: center;
+  color: #fff;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 30px;
+  text-align: center;
+}
+#boxes .container{
+  margin-top: 20px;
+}
+#boxes .box{
+  width:45%;
+  float: left;
+  padding:10px;
+  text-align: center;
+}
+#boxes .box img{
+  width: 60%;
+}
+#boxes a{
+  color: #fff;
+  text-decoration: none;
+  background-color: gray;
+}
+#boxes a:hover{
+  color: blue;
+  background-color: #fff;
+}
+#requestletter{
+    padding:15px;
+    background-color: #D3D3D3;
+    width: 80%;
+    border-top:3px black solid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #requestletter .container h2{
+    text-align: center;
+    font:50px;
+  }
+  #requestletter .container form{
+  margin-top: 15px;
+  text-align: center;
+  }
+  #requestletter .container input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+  #requestletter .container textarea{
+    padding: 4px;
+    height: -40px;
+    width: 250px;
+  }
+  #requestletter .container button[type="submit"]{
+    padding: 4px;
+    height: 38px;
+    width: 100px;
+    background-color: black;
+    border-style: hidden;
+    color: #ffffff;
+  }
+#requestletter .container button:hover{
+  background-color: green;
+  font-size: 15px;
+}
+#linksets{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+#linksets .container{
+  margin-left: 50px;
+  width: 100%;
+}
+#linksets .container .links{
+  width: 30%;
+  float: left;
+  margin-left: 150px:
+}
+.container li{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+#linksets .container h3{
+  text-align: center;
+}
+#linksets a{
+  text-decoration: none;
+  color: gray;
+}
+#linksets a:hover{
+  font-size: 20px;
+  color: blue;
+}
+footer{
+  margin-top: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f4f4f;
+}
+#footer .foot{
+  float: left;
+  width: 30%;
+  padding: 15px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: auto;
+}
+#footer .container strong{
+  color: #fff;
+  font-size: 20px;
+  background:green;
+  height: 38px;
+  padding: 5px;
+}
+#footer .foot input{
+  border-style: none;
+  height:38px;
+  width: 200px;
+}
+#footer .container button{
+  padding: 4px;
+  height: 38px;
+  width: 100px;
+  background-color: black;
+  border-style: hidden;
+  color: #ffffff;
+  margin-top: auto;
+}
+#footer .container button:hover{
+  background-color: green;
+  font-size: 15px;
+}
+#footer .container a{
+  text-decoration: none;
+  color: #fff;
+}
+#footer .container a:hover{
+  font-size: 20px;
+  color: blue;
+}
+/*Media Queries*/
+@media(max-width: 768px){
+	header #branding{
+    margin: auto;
+    margin-bottom: 10px;
+  }
+	header nav,
+	header nav li,
+  #boxes .box,
+  #boxes .box .section-description h2 {
+		float: none;
+		text-align: center;
+		width: 100%;
+  }
+  #requestletter{
+    width: 90%;
+    margin: auto;
+  }
+  #footer .container .foot{
+    width: 100%;
+    margin: auto;
+  }
+}
