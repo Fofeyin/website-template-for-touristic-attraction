@@ -4,4 +4,4 @@
 * Open any html page such as ```homepage.html``` in browser to navigate the site.
 * It should look something like 👇
 
-	![alt text](Screenshot (14).png)
+	![alt text](Images/Screenshot (14).png)
